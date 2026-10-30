@@ -12,19 +12,13 @@ Ca identificator unic (`itemId`) pentru fiecare entitate, am folosit coloana **`
 
 Prin intermediul request-urilor `SetItemValues`, am mapat valorile din CSV pe următoarele proprietăți definite anterior în interfața Recombee:
 
-- **`title`** (*String*): Titlul cărții.
-
-- **`authors`** (*String*): Autorul sau autorii cărții.
-
-- **`categories`** (*String*): Genul literar sau categoria din care face parte cartea.
-
-- **`published_year`** (*Integer*): Anul în care a fost publicată ediția.
-
-- **`average_rating`** (*Double*): Nota medie de evaluare oferită de cititori.
-
-- **`num_pages`** (*Integer*): Numărul de pagini.
-
-- **`description`** (*String*): Un scurt rezumat sau o descriere a cărții.
+* **`title`** (*String*): Titlul cărții.
+* **`authors`** (*String*): Autorul sau autorii cărții.
+* **`categories`** (*String*): Genul literar sau categoria din care face parte cartea.
+* **`published_year`** (*Integer*): Anul în care a fost publicată ediția.
+* **`average_rating`** (*Double*): Nota medie de evaluare oferită de cititori.
+* **`num_pages`** (*Integer*): Numărul de pagini.
+* **`description`** (*String*): Un scurt rezumat sau o descriere a cărții.
 
 # Laborator 2 - Sisteme de Recomandare (Integrare Recombee)
 
