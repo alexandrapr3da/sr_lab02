@@ -8,7 +8,7 @@ REGION = Region.EU_WEST
 
 client = RecombeeClient(DB_NAME, PRIVATE_TOKEN, region=REGION)
 PATH_DATASET = 'books.csv'
-
+ 
 def send_items():
     df = pd.read_csv(PATH_DATASET)
     
